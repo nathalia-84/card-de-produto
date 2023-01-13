@@ -4,11 +4,7 @@
 <p align="left">Um card de produto feito para o desafio #02 do #boraCodar da @Rocketseat.
 
 <h1 align="center">
-  <img alt="Página de Produto" src="" />
-</h1>
-
-<h1 align="center">
-  <img alt="Página de Produto" src="" />
+  <img alt="Página de Produto" src="./assets/captura11.PNG" />
 </h1>
 
 ### 🛠 Tecnologias
