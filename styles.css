@@ -61,12 +61,25 @@ p:first-child {
 }
 
 .img-container {
+    margin-top: 1rem;
     width: 50%;
     position: relative;
 }
 
-.img-container img {
+.img {
+    background-image: url(./assets/image2.png);
+    background-repeat: no-repeat;
+    background-size: contain;
     width: 100%;
+    height: 10rem;
+}
+
+.img.turn {
+    background-image: url(./assets/sofa_giro.gif);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    height: 10rem;
 }
 
 .info-container {
@@ -74,8 +87,24 @@ p:first-child {
     line-height: 1.8rem;
 }
 
-.btn-360 {
-    width: 1.5rem;
+.btn {
+    background-image: url(./assets/Vector.svg);
+    background-repeat: no-repeat;
+    height: 1.5rem;
+    width: 1.8rem;
+    object-fit: contain;
+    position: absolute;
+    top: 0;
+    right: 2rem;
+    cursor: pointer;
+}
+
+.btn.close {
+    background-image: url(./assets/Stroke.svg);
+    background-repeat: no-repeat;
+    height: 1.5rem;
+    width: 1.8rem;
+    object-fit: contain;
     position: absolute;
     top: 0;
     right: 2rem;
